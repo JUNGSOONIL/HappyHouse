@@ -1,0 +1,1038 @@
+2021-11-17 16:06:03 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 12948 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 16:06:03 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:06:03 [restartedMain] INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-11-17 16:06:03 [restartedMain] INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-11-17 16:06:05 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:06:05 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:06:05 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:06:05 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:06:05 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:06:05 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2030 ms 
+2021-11-17 16:06:06 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 16:06:07 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:06:07 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:06:07 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:06:07 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 3.978 seconds (JVM running for 6.116) 
+2021-11-17 16:07:56 [http-nio-8080-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-17 16:07:56 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-11-17 16:07:56 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms 
+2021-11-17 16:07:56 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:07:56 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:07:56 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy74.login() 
+2021-11-17 16:07:56 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2021-11-17 16:07:57 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-1 - Start completed. 
+2021-11-17 16:07:57 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy74.login() 
+2021-11-17 16:07:57 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:07:57 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:09:02 [Thread-7] INFO c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-11-17 16:09:02 [Thread-7] INFO c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-11-17 16:09:02 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 12948 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 16:09:02 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:09:03 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:09:03 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:09:03 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:09:03 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:09:03 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:09:03 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 472 ms 
+2021-11-17 16:09:03 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 16:09:03 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:09:03 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:09:03 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:09:03 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 1.039 seconds (JVM running for 182.432) 
+2021-11-17 16:09:03 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 16:09:24 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 12948 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 16:09:24 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:09:24 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:09:24 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:09:24 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:09:24 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:09:24 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:09:24 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 421 ms 
+2021-11-17 16:09:24 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 16:09:24 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:09:24 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:09:24 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:09:24 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 0.922 seconds (JVM running for 203.68) 
+2021-11-17 16:09:24 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 16:09:28 [http-nio-8080-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-17 16:09:28 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-11-17 16:09:28 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 0 ms 
+2021-11-17 16:09:28 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:09:28 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:09:28 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy107.login() 
+2021-11-17 16:09:28 [http-nio-8080-exec-2] INFO c.z.h.HikariDataSource - HikariPool-2 - Starting... 
+2021-11-17 16:09:28 [http-nio-8080-exec-2] INFO c.z.h.HikariDataSource - HikariPool-2 - Start completed. 
+2021-11-17 16:09:28 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy107.login() 
+2021-11-17 16:09:28 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:09:28 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:10:21 [Thread-19] INFO c.z.h.HikariDataSource - HikariPool-2 - Shutdown initiated... 
+2021-11-17 16:10:21 [Thread-19] INFO c.z.h.HikariDataSource - HikariPool-2 - Shutdown completed. 
+2021-11-17 16:10:21 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 12948 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 16:10:21 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:10:21 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:10:21 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:10:21 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:10:21 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:10:21 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:10:21 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 410 ms 
+2021-11-17 16:10:22 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 16:10:22 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:10:22 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:10:22 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:10:22 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 0.925 seconds (JVM running for 261.209) 
+2021-11-17 16:10:22 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 16:10:31 [http-nio-8080-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-17 16:10:31 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-11-17 16:10:31 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms 
+2021-11-17 16:10:31 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:10:31 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:10:31 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy115.login() 
+2021-11-17 16:10:31 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-3 - Starting... 
+2021-11-17 16:10:31 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-3 - Start completed. 
+2021-11-17 16:10:31 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy115.login() 
+2021-11-17 16:10:31 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:10:31 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:13:37 [Thread-25] INFO c.z.h.HikariDataSource - HikariPool-3 - Shutdown initiated... 
+2021-11-17 16:13:37 [Thread-25] INFO c.z.h.HikariDataSource - HikariPool-3 - Shutdown completed. 
+2021-11-17 16:13:37 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 12948 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 16:13:37 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:13:38 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:13:38 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:13:38 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:13:38 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:13:38 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:13:38 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 414 ms 
+2021-11-17 16:13:38 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 16:13:38 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:13:38 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:13:38 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:13:38 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 0.91 seconds (JVM running for 457.425) 
+2021-11-17 16:13:38 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 16:13:52 [http-nio-8080-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-17 16:13:52 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-11-17 16:13:52 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 0 ms 
+2021-11-17 16:13:52 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:13:52 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:13:52 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy123.login() 
+2021-11-17 16:13:52 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-4 - Starting... 
+2021-11-17 16:13:52 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-4 - Start completed. 
+2021-11-17 16:13:52 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy123.login() 
+2021-11-17 16:13:52 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:13:52 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:14:43 [Thread-31] INFO c.z.h.HikariDataSource - HikariPool-4 - Shutdown initiated... 
+2021-11-17 16:14:43 [Thread-31] INFO c.z.h.HikariDataSource - HikariPool-4 - Shutdown completed. 
+2021-11-17 16:14:43 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 12948 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 16:14:43 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:14:44 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:14:44 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:14:44 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:14:44 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:14:44 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:14:44 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 429 ms 
+2021-11-17 16:14:44 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 16:14:44 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:14:44 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:14:44 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:14:44 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 0.911 seconds (JVM running for 523.368) 
+2021-11-17 16:14:44 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 16:15:42 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 12948 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 16:15:42 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:15:42 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:15:42 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:15:42 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:15:42 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:15:42 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:15:42 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 442 ms 
+2021-11-17 16:15:42 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 16:15:43 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:15:43 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:15:43 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:15:43 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 0.911 seconds (JVM running for 581.885) 
+2021-11-17 16:15:43 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 16:15:51 [http-nio-8080-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-17 16:15:51 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-11-17 16:15:51 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms 
+2021-11-17 16:15:51 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:15:51 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:15:51 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy139.login() 
+2021-11-17 16:15:51 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-5 - Starting... 
+2021-11-17 16:15:51 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-5 - Start completed. 
+2021-11-17 16:15:51 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy139.login() 
+2021-11-17 16:15:51 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:15:51 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:18:33 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:18:33 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:18:33 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy139.login() 
+2021-11-17 16:18:33 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy139.login() 
+2021-11-17 16:18:33 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:18:33 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:20:11 [Thread-43] INFO c.z.h.HikariDataSource - HikariPool-5 - Shutdown initiated... 
+2021-11-17 16:20:12 [Thread-43] INFO c.z.h.HikariDataSource - HikariPool-5 - Shutdown completed. 
+2021-11-17 16:20:12 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 12948 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 16:20:12 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:20:12 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:20:12 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:20:12 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:20:12 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:20:12 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:20:12 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 429 ms 
+2021-11-17 16:20:12 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 16:20:13 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:20:13 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:20:13 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:20:13 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 0.919 seconds (JVM running for 851.793) 
+2021-11-17 16:20:13 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 16:20:20 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 12948 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 16:20:20 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:20:21 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:20:21 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:20:21 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:20:21 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:20:21 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:20:21 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 405 ms 
+2021-11-17 16:20:21 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 16:20:21 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:20:21 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:20:21 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:20:21 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 0.895 seconds (JVM running for 860.399) 
+2021-11-17 16:20:21 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 16:20:29 [http-nio-8080-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-17 16:20:29 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-11-17 16:20:29 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms 
+2021-11-17 16:20:29 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:20:29 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:20:29 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy155.login() 
+2021-11-17 16:20:29 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-6 - Starting... 
+2021-11-17 16:20:29 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-6 - Start completed. 
+2021-11-17 16:20:29 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy155.login() 
+2021-11-17 16:20:29 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:20:29 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:21:18 [Thread-55] INFO c.z.h.HikariDataSource - HikariPool-6 - Shutdown initiated... 
+2021-11-17 16:21:18 [Thread-55] INFO c.z.h.HikariDataSource - HikariPool-6 - Shutdown completed. 
+2021-11-17 16:21:18 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 12948 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 16:21:18 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:21:18 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:21:18 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:21:18 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:21:18 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:21:18 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:21:18 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 399 ms 
+2021-11-17 16:21:18 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 16:21:19 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:21:19 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:21:19 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:21:19 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 0.892 seconds (JVM running for 917.914) 
+2021-11-17 16:21:19 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 16:21:22 [http-nio-8080-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-17 16:21:22 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-11-17 16:21:22 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms 
+2021-11-17 16:21:23 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:21:23 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:21:23 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy163.login() 
+2021-11-17 16:21:23 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-7 - Starting... 
+2021-11-17 16:21:23 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-7 - Start completed. 
+2021-11-17 16:21:23 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy163.login() 
+2021-11-17 16:21:23 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:21:23 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:24:48 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:24:48 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:24:48 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy163.login() 
+2021-11-17 16:24:48 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy163.login() 
+2021-11-17 16:24:48 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:24:48 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:26:23 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause 
+java.lang.NullPointerException: null
+	at com.ssafy.happyhouse.controller.BoardController.boardListad(BoardController.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-17 16:26:36 [http-nio-8080-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause 
+java.lang.NullPointerException: null
+	at com.ssafy.happyhouse.controller.BoardController.boardListad(BoardController.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-17 16:28:58 [Thread-61] INFO c.z.h.HikariDataSource - HikariPool-7 - Shutdown initiated... 
+2021-11-17 16:28:58 [Thread-61] INFO c.z.h.HikariDataSource - HikariPool-7 - Shutdown completed. 
+2021-11-17 16:28:58 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 12948 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 16:28:58 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:28:59 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:28:59 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:28:59 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:28:59 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:28:59 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:28:59 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 436 ms 
+2021-11-17 16:28:59 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 16:28:59 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:28:59 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:28:59 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:28:59 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 0.92 seconds (JVM running for 1378.454) 
+2021-11-17 16:28:59 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 16:29:08 [http-nio-8080-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-17 16:29:08 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-11-17 16:29:08 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms 
+2021-11-17 16:29:08 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.BoardController.boardListad() 
+2021-11-17 16:29:08 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.BoardServiceImpl.boardListad() 
+2021-11-17 16:29:08 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy169.boardListad() 
+2021-11-17 16:29:08 [http-nio-8080-exec-6] INFO c.z.h.HikariDataSource - HikariPool-8 - Starting... 
+2021-11-17 16:29:08 [http-nio-8080-exec-6] INFO c.z.h.HikariDataSource - HikariPool-8 - Start completed. 
+2021-11-17 16:29:08 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy169.boardListad() 
+2021-11-17 16:29:08 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy169.boardListAdminTotalCount() 
+2021-11-17 16:29:08 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy169.boardListAdminTotalCount() 
+2021-11-17 16:29:08 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.BoardServiceImpl.boardListad() 
+2021-11-17 16:29:08 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.BoardController.boardListad() 
+2021-11-17 16:29:18 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:29:18 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:29:18 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy171.login() 
+2021-11-17 16:29:18 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy171.login() 
+2021-11-17 16:29:18 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:29:18 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:29:19 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.BoardController.boardListad() 
+2021-11-17 16:29:19 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.BoardServiceImpl.boardListad() 
+2021-11-17 16:29:19 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy169.boardListad() 
+2021-11-17 16:29:19 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy169.boardListad() 
+2021-11-17 16:29:19 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy169.boardListAdminTotalCount() 
+2021-11-17 16:29:19 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy169.boardListAdminTotalCount() 
+2021-11-17 16:29:19 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.BoardServiceImpl.boardListad() 
+2021-11-17 16:29:19 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.UserController.select() 
+2021-11-17 16:29:19 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.BoardController.boardListad() 
+2021-11-17 16:29:19 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.UserServiceImpl.userSelect() 
+2021-11-17 16:29:19 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy175.userSelect() 
+2021-11-17 16:29:19 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy175.userSelect() 
+2021-11-17 16:29:19 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.UserServiceImpl.userSelect() 
+2021-11-17 16:29:19 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.UserController.select() 
+2021-11-17 16:29:39 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:29:39 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:29:39 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy171.login() 
+2021-11-17 16:29:39 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy171.login() 
+2021-11-17 16:29:39 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:29:39 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:30:33 [Thread-67] INFO c.z.h.HikariDataSource - HikariPool-8 - Shutdown initiated... 
+2021-11-17 16:30:33 [Thread-67] INFO c.z.h.HikariDataSource - HikariPool-8 - Shutdown completed. 
+2021-11-17 16:30:33 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 12948 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 16:30:33 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:30:34 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:30:34 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:30:34 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:30:34 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:30:34 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:30:34 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 478 ms 
+2021-11-17 16:30:34 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 16:30:34 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:30:34 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:30:34 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:30:34 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 0.948 seconds (JVM running for 1473.603) 
+2021-11-17 16:30:34 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 16:32:29 [http-nio-8080-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-17 16:32:29 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-11-17 16:32:29 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms 
+2021-11-17 16:32:29 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:32:29 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:32:29 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy181.login() 
+2021-11-17 16:32:29 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-9 - Starting... 
+2021-11-17 16:32:29 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-9 - Start completed. 
+2021-11-17 16:32:29 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy181.login() 
+2021-11-17 16:32:29 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:32:29 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:33:03 [RMI TCP Connection(64)-127.0.0.1] INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested. 
+2021-11-17 16:33:04 [RMI TCP Connection(64)-127.0.0.1] INFO c.z.h.HikariDataSource - HikariPool-9 - Shutdown initiated... 
+2021-11-17 16:33:04 [RMI TCP Connection(64)-127.0.0.1] INFO c.z.h.HikariDataSource - HikariPool-9 - Shutdown completed. 
+2021-11-17 16:44:47 [restartedMain] INFO c.s.h.HappyhouseVueApplication - Starting HappyhouseVueApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 21372 (C:\Happy_House_5_Spring_전양희_정순일\happyhouseVue\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouseVue) 
+2021-11-17 16:44:47 [restartedMain] INFO c.s.h.HappyhouseVueApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:44:47 [restartedMain] INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-11-17 16:44:47 [restartedMain] INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-11-17 16:44:48 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:44:48 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:44:48 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:44:48 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:44:48 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:44:48 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1601 ms 
+2021-11-17 16:44:49 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:44:49 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:44:49 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:44:49 [restartedMain] INFO c.s.h.HappyhouseVueApplication - Started HappyhouseVueApplication in 3.287 seconds (JVM running for 5.189) 
+2021-11-17 16:45:00 [http-nio-8080-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-17 16:45:00 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-11-17 16:45:00 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 2 ms 
+2021-11-17 16:45:00 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:45:00 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:45:00 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy74.login() 
+2021-11-17 16:45:00 [http-nio-8080-exec-2] INFO c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2021-11-17 16:45:00 [http-nio-8080-exec-2] INFO c.z.h.HikariDataSource - HikariPool-1 - Start completed. 
+2021-11-17 16:45:00 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy74.login() 
+2021-11-17 16:45:00 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:45:00 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:45:15 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:45:15 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:45:15 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy74.login() 
+2021-11-17 16:45:15 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy74.login() 
+2021-11-17 16:45:15 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:45:15 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:46:37 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:46:37 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:46:37 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy74.login() 
+2021-11-17 16:46:37 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy74.login() 
+2021-11-17 16:46:37 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:46:37 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:47:43 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:47:43 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:47:43 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy74.login() 
+2021-11-17 16:47:43 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy74.login() 
+2021-11-17 16:47:43 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:47:43 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:48:33 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:48:33 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:48:33 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy74.login() 
+2021-11-17 16:48:33 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy74.login() 
+2021-11-17 16:48:33 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:48:33 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:51:27 [Thread-7] INFO c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-11-17 16:51:27 [Thread-7] INFO c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-11-17 16:51:28 [restartedMain] INFO c.s.h.HappyhouseVueApplication - Starting HappyhouseVueApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 21372 (C:\Happy_House_5_Spring_전양희_정순일\happyhouseVue\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouseVue) 
+2021-11-17 16:51:28 [restartedMain] INFO c.s.h.HappyhouseVueApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:51:28 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:51:28 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:51:28 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:51:28 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:51:28 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:51:28 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 527 ms 
+2021-11-17 16:51:29 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:51:29 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:51:29 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:51:29 [restartedMain] INFO c.s.h.HappyhouseVueApplication - Started HappyhouseVueApplication in 1.079 seconds (JVM running for 404.348) 
+2021-11-17 16:51:29 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 16:51:31 [restartedMain] INFO c.s.h.HappyhouseVueApplication - Starting HappyhouseVueApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 21372 (C:\Happy_House_5_Spring_전양희_정순일\happyhouseVue\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouseVue) 
+2021-11-17 16:51:31 [restartedMain] INFO c.s.h.HappyhouseVueApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:51:32 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:51:32 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:51:32 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:51:32 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:51:32 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:51:32 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 434 ms 
+2021-11-17 16:51:32 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:51:32 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:51:32 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:51:32 [restartedMain] INFO c.s.h.HappyhouseVueApplication - Started HappyhouseVueApplication in 0.955 seconds (JVM running for 407.8) 
+2021-11-17 16:51:32 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 16:51:39 [http-nio-8080-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-17 16:51:39 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-11-17 16:51:39 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms 
+2021-11-17 16:51:39 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:51:39 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:51:39 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy107.login() 
+2021-11-17 16:51:39 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-2 - Starting... 
+2021-11-17 16:51:39 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-2 - Start completed. 
+2021-11-17 16:51:39 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy107.login() 
+2021-11-17 16:51:39 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:51:39 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:53:42 [RMI TCP Connection(20)-127.0.0.1] INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested. 
+2021-11-17 16:53:43 [RMI TCP Connection(20)-127.0.0.1] INFO c.z.h.HikariDataSource - HikariPool-2 - Shutdown initiated... 
+2021-11-17 16:53:43 [RMI TCP Connection(20)-127.0.0.1] INFO c.z.h.HikariDataSource - HikariPool-2 - Shutdown completed. 
+2021-11-17 16:54:14 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 24936 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 16:54:14 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:54:14 [restartedMain] INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-11-17 16:54:14 [restartedMain] INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-11-17 16:54:16 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:54:16 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:54:16 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:54:16 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:54:16 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:54:16 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1574 ms 
+2021-11-17 16:54:17 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 16:54:17 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:54:17 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:54:17 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:54:17 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 3.279 seconds (JVM running for 5.203) 
+2021-11-17 16:54:24 [http-nio-8080-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-17 16:54:24 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-11-17 16:54:24 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 0 ms 
+2021-11-17 16:54:24 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:54:24 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:54:24 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy74.login() 
+2021-11-17 16:54:24 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2021-11-17 16:54:24 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-1 - Start completed. 
+2021-11-17 16:54:24 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy74.login() 
+2021-11-17 16:54:24 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 16:54:24 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 16:55:01 [Thread-7] INFO c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-11-17 16:55:01 [Thread-7] INFO c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-11-17 16:55:01 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 24936 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 16:55:01 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 16:55:02 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 16:55:02 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:55:02 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 16:55:02 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 16:55:02 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 16:55:02 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 462 ms 
+2021-11-17 16:55:02 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 16:55:02 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 16:55:02 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 16:55:02 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 16:55:02 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 1.022 seconds (JVM running for 50.449) 
+2021-11-17 16:55:02 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 17:03:09 [http-nio-8080-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-17 17:03:09 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-11-17 17:03:09 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms 
+2021-11-17 17:03:09 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.UserController.register() 
+2021-11-17 17:03:09 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.UserServiceImpl.userRegister() 
+2021-11-17 17:03:09 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy104.userRegister() 
+2021-11-17 17:03:09 [http-nio-8080-exec-2] INFO c.z.h.HikariDataSource - HikariPool-2 - Starting... 
+2021-11-17 17:03:10 [http-nio-8080-exec-2] INFO c.z.h.HikariDataSource - HikariPool-2 - Start completed. 
+2021-11-17 17:03:10 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy104.userRegister() 
+2021-11-17 17:03:10 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.UserServiceImpl.userRegister() 
+2021-11-17 17:03:10 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.UserController.register() 
+2021-11-17 17:11:14 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:11:14 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:11:14 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:11:14 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:11:14 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:11:14 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:16:18 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:16:18 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:16:18 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:16:18 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:16:18 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:16:18 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:16:25 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:16:25 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:16:25 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:16:25 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:16:25 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:16:25 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:16:50 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:16:50 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:16:50 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:16:50 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:16:50 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:16:50 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:16:54 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:16:54 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:16:54 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:16:54 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:16:54 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:16:54 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:17:11 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:17:11 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:17:11 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:17:11 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:17:11 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:17:11 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:17:50 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:17:50 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:17:50 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:17:50 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:17:50 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:17:50 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:18:20 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:18:20 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:18:20 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:18:20 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:18:20 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:18:20 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:20:27 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:20:27 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:20:27 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:20:27 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:20:27 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:20:27 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:21:26 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:21:26 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:21:26 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:21:26 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:21:26 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:21:26 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:21:46 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.UserController.register() 
+2021-11-17 17:21:46 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.UserServiceImpl.userRegister() 
+2021-11-17 17:21:46 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy104.userRegister() 
+2021-11-17 17:21:46 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy104.userRegister() 
+2021-11-17 17:21:46 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.UserServiceImpl.userRegister() 
+2021-11-17 17:21:46 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.UserController.register() 
+2021-11-17 17:21:54 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:21:54 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:21:54 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:21:54 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:21:54 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:21:54 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:21:58 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:21:58 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:21:58 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:21:58 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:21:58 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:21:58 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:22:10 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:22:10 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:22:10 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:22:10 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:22:10 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:22:10 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:38:15 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:38:15 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:38:15 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:38:15 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:38:15 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:38:15 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:42:17 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:42:17 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:42:17 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:42:17 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:42:17 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:42:17 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:44:54 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:44:54 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:44:54 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:44:54 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:44:54 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:44:54 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:46:30 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:46:30 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:46:30 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:46:30 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:46:30 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:46:30 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:48:13 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:48:13 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:48:13 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:48:13 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:48:13 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:48:13 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:49:55 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:49:55 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:49:55 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:49:55 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:49:55 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:49:55 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:50:26 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:50:26 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:50:26 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:50:26 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:50:26 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:50:26 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:50:53 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:50:53 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:50:53 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:50:53 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:50:53 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:50:53 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:53:32 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:53:32 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:53:32 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:53:32 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:53:32 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:53:32 [http-nio-8080-exec-10] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:54:38 [http-nio-8080-exec-4] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 17:54:38 [http-nio-8080-exec-4] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:54:38 [http-nio-8080-exec-4] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:54:38 [http-nio-8080-exec-4] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 17:54:38 [http-nio-8080-exec-4] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 17:54:38 [http-nio-8080-exec-4] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 18:10:30 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 18:10:30 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 18:10:30 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 18:10:30 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 18:10:30 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 18:10:30 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 18:16:59 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 18:16:59 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 18:16:59 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 18:16:59 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 18:16:59 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 18:16:59 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 18:17:24 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 18:17:24 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 18:17:24 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 18:17:24 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 18:17:24 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 18:17:24 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 18:17:42 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 18:17:42 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 18:17:42 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy100.login() 
+2021-11-17 18:17:42 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy100.login() 
+2021-11-17 18:17:42 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 18:17:42 [http-nio-8080-exec-9] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 18:45:13 [Thread-13] INFO c.z.h.HikariDataSource - HikariPool-2 - Shutdown initiated... 
+2021-11-17 18:45:13 [Thread-13] INFO c.z.h.HikariDataSource - HikariPool-2 - Shutdown completed. 
+2021-11-17 18:45:13 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 24936 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 18:45:13 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 18:45:13 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 18:45:13 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 18:45:13 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 18:45:13 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 18:45:13 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 18:45:13 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 516 ms 
+2021-11-17 18:45:14 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 18:45:14 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 18:45:14 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 18:45:14 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 18:45:14 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 1.104 seconds (JVM running for 6662.023) 
+2021-11-17 18:45:14 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 19:35:24 [http-nio-8080-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-17 19:35:24 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-11-17 19:35:24 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 10 ms 
+2021-11-17 19:35:24 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 19:35:24 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 19:35:24 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy108.login() 
+2021-11-17 19:35:24 [http-nio-8080-exec-2] INFO c.z.h.HikariDataSource - HikariPool-3 - Starting... 
+2021-11-17 19:35:24 [http-nio-8080-exec-2] INFO c.z.h.HikariDataSource - HikariPool-3 - Start completed. 
+2021-11-17 19:35:24 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy108.login() 
+2021-11-17 19:35:24 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 19:35:24 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 19:37:54 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 19:37:54 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 19:37:54 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy108.login() 
+2021-11-17 19:37:54 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy108.login() 
+2021-11-17 19:37:54 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 19:37:54 [http-nio-8080-exec-5] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 19:37:59 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.UserController.update() 
+2021-11-17 19:37:59 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.UserServiceImpl.userUpdate() 
+2021-11-17 19:37:59 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy112.userUpdate() 
+2021-11-17 19:37:59 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy112.userUpdate() 
+2021-11-17 19:37:59 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.UserServiceImpl.userUpdate() 
+2021-11-17 19:37:59 [http-nio-8080-exec-7] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.UserController.update() 
+2021-11-17 19:38:38 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 19:38:38 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 19:38:38 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy108.login() 
+2021-11-17 19:38:38 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy108.login() 
+2021-11-17 19:38:38 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 19:38:38 [http-nio-8080-exec-8] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 19:40:01 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.UserController.register() 
+2021-11-17 19:40:01 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.UserServiceImpl.userRegister() 
+2021-11-17 19:40:01 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy112.userRegister() 
+2021-11-17 19:40:01 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy112.userRegister() 
+2021-11-17 19:40:01 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.UserServiceImpl.userRegister() 
+2021-11-17 19:40:01 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.UserController.register() 
+2021-11-17 19:40:04 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 19:40:04 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 19:40:04 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy108.login() 
+2021-11-17 19:40:04 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy108.login() 
+2021-11-17 19:40:04 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 19:40:04 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 19:40:29 [http-nio-8080-exec-4] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.UserController.update() 
+2021-11-17 19:40:29 [http-nio-8080-exec-4] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.UserServiceImpl.userUpdate() 
+2021-11-17 19:40:29 [http-nio-8080-exec-4] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy112.userUpdate() 
+2021-11-17 19:40:29 [http-nio-8080-exec-4] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy112.userUpdate() 
+2021-11-17 19:40:29 [http-nio-8080-exec-4] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.UserServiceImpl.userUpdate() 
+2021-11-17 19:40:29 [http-nio-8080-exec-4] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.UserController.update() 
+2021-11-17 19:40:36 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.UserController.delete() 
+2021-11-17 19:40:36 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.UserServiceImpl.userDelete() 
+2021-11-17 19:40:36 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy112.userDelete() 
+2021-11-17 19:40:36 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy112.userDelete() 
+2021-11-17 19:40:36 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.UserServiceImpl.userDelete() 
+2021-11-17 19:40:36 [http-nio-8080-exec-6] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.UserController.delete() 
+2021-11-17 19:40:36 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', board b, board_user_read r, user u
+		where f.BOARD_ID = b.BOARD_ID
+		and userI' at line 1
+### The error may exist in mapper/user_query.xml
+### The error may involve com.ssafy.happyhouse.dao.UserDao.userDelete-Inline
+### The error occurred while setting parameters
+### SQL: delete from board_flie f, board b, board_user_read r, user u   where f.BOARD_ID = b.BOARD_ID   and userId = ?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', board b, board_user_read r, user u
+		where f.BOARD_ID = b.BOARD_ID
+		and userI' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', board b, board_user_read r, user u
+		where f.BOARD_ID = b.BOARD_ID
+		and userI' at line 1] with root cause 
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', board b, board_user_read r, user u
+		where f.BOARD_ID = b.BOARD_ID
+		and userI' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:371)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.delete(DefaultSqlSession.java:209)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy71.delete(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.delete(SqlSessionTemplate.java:304)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:72)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy112.userDelete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy113.userDelete(Unknown Source)
+	at com.ssafy.happyhouse.service.UserServiceImpl.userDelete(UserServiceImpl.java:52)
+	at com.ssafy.happyhouse.service.UserServiceImpl$$FastClassBySpringCGLIB$$42e2500a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.ssafy.happyhouse.service.UserServiceImpl$$EnhancerBySpringCGLIB$$1bcc89c6.userDelete(<generated>)
+	at com.ssafy.happyhouse.controller.UserController.delete(UserController.java:63)
+	at com.ssafy.happyhouse.controller.UserController$$FastClassBySpringCGLIB$$b51937f2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.ssafy.happyhouse.controller.UserController$$EnhancerBySpringCGLIB$$a16d727e.delete(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-17 19:41:18 [Thread-19] INFO c.z.h.HikariDataSource - HikariPool-3 - Shutdown initiated... 
+2021-11-17 19:41:18 [Thread-19] INFO c.z.h.HikariDataSource - HikariPool-3 - Shutdown completed. 
+2021-11-17 19:41:19 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 24936 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 19:41:19 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 19:41:19 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 19:41:19 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 19:41:19 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 19:41:19 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 19:41:19 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 19:41:19 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 442 ms 
+2021-11-17 19:41:19 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 19:41:20 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 19:41:20 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 19:41:20 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 19:41:20 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 0.937 seconds (JVM running for 10027.756) 
+2021-11-17 19:41:20 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 19:41:37 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 24936 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 19:41:37 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 19:41:37 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 19:41:37 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 19:41:37 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 19:41:37 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 19:41:37 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 19:41:37 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 412 ms 
+2021-11-17 19:41:37 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 19:41:37 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 19:41:38 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 19:41:38 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 19:41:38 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 0.896 seconds (JVM running for 10045.705) 
+2021-11-17 19:41:38 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 19:41:57 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 24936 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 19:41:57 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 19:41:57 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 19:41:57 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 19:41:57 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 19:41:57 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 19:41:57 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 19:41:57 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 388 ms 
+2021-11-17 19:41:57 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 19:41:58 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 19:41:58 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 19:41:58 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 19:41:58 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 0.863 seconds (JVM running for 10065.712) 
+2021-11-17 19:41:58 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 19:42:32 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 24936 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-17 19:42:32 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-17 19:42:33 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-17 19:42:33 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-17 19:42:33 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-17 19:42:33 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-17 19:42:33 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-17 19:42:33 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 375 ms 
+2021-11-17 19:42:33 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-17 19:42:33 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-17 19:42:33 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-17 19:42:33 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-17 19:42:33 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 0.837 seconds (JVM running for 10101.145) 
+2021-11-17 19:42:33 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2021-11-17 19:43:00 [http-nio-8080-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-11-17 19:43:00 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-11-17 19:43:00 [http-nio-8080-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 0 ms 
+2021-11-17 19:43:00 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 19:43:00 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 19:43:00 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy142.login() 
+2021-11-17 19:43:00 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-4 - Starting... 
+2021-11-17 19:43:00 [http-nio-8080-exec-1] INFO c.z.h.HikariDataSource - HikariPool-4 - Start completed. 
+2021-11-17 19:43:00 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy142.login() 
+2021-11-17 19:43:00 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 19:43:00 [http-nio-8080-exec-1] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 19:43:08 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 19:43:08 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 19:43:08 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy142.login() 
+2021-11-17 19:43:08 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy142.login() 
+2021-11-17 19:43:08 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.LoginServiceImpl.login() 
+2021-11-17 19:43:08 [http-nio-8080-exec-2] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.LoginController.login() 
+2021-11-17 19:43:11 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.controller.UserController.delete() 
+2021-11-17 19:43:11 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.ssafy.happyhouse.service.UserServiceImpl.userDelete() 
+2021-11-17 19:43:11 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : Before class com.sun.proxy.$Proxy146.userDelete() 
+2021-11-17 19:43:11 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.sun.proxy.$Proxy146.userDelete() 
+2021-11-17 19:43:11 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.service.UserServiceImpl.userDelete() 
+2021-11-17 19:43:11 [http-nio-8080-exec-3] INFO c.s.h.c.LoggerAspect - LoggerAspect : After class com.ssafy.happyhouse.controller.UserController.delete() 
+2021-11-17 19:52:17 [RMI TCP Connection(200)-127.0.0.1] INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested. 
+2021-11-17 19:52:18 [RMI TCP Connection(200)-127.0.0.1] INFO c.z.h.HikariDataSource - HikariPool-4 - Shutdown initiated... 
+2021-11-17 19:52:18 [RMI TCP Connection(200)-127.0.0.1] INFO c.z.h.HikariDataSource - HikariPool-4 - Shutdown completed. 

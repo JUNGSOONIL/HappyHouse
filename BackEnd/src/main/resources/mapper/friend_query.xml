@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.ssafy.happyhouse.dao.FriendDao">
+
+	<insert id="friendInsert" parameterType="String">
+		insert into friend_relation(my_seq, friend_seq)
+		       values ( (select userseq from user where userid = #{userId}), (select userseq from user where userid = #{friendId}) )
+	</insert>
+	
+	<delete id="friendDelete" parameterType="String">
+		delete from friend_relation
+		where my_seq = (select userseq from user where userid = #{userId}) and
+		friend_seq = (select userseq from user where userid = #{friendId})
+	</delete>
+	
+	<select id="friendList" parameterType="String" resultType="String">
+		SELECT (select userid from user u where u.userSeq = f.friend_seq) as firendId
+		from friend_relation f
+		where my_seq = (select userseq from user where userid = #{userId});
+	</select>
+</mapper>
+ 

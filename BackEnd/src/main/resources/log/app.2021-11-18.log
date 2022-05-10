@@ -1,0 +1,16 @@
+2021-11-18 14:58:26 [restartedMain] INFO c.s.h.HappyhouseApplication - Starting HappyhouseApplication using Java 1.8.0_292 on DESKTOP-TTD5GNU with PID 18740 (C:\Happy_House_5_Spring_전양희_정순일\happyhouse\bin\main started by 전양희 in C:\Happy_House_5_Spring_전양희_정순일\happyhouse) 
+2021-11-18 14:58:26 [restartedMain] INFO c.s.h.HappyhouseApplication - No active profile set, falling back to default profiles: default 
+2021-11-18 14:58:26 [restartedMain] INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-11-18 14:58:26 [restartedMain] INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-11-18 14:58:28 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-11-18 14:58:28 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-11-18 14:58:28 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2021-11-18 14:58:28 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-11-18 14:58:28 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-18 14:58:28 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1705 ms 
+2021-11-18 14:58:29 [restartedMain] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html] 
+2021-11-18 14:58:29 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2021-11-18 14:58:29 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-11-18 14:58:29 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-11-18 14:58:29 [restartedMain] INFO c.s.h.HappyhouseApplication - Started HappyhouseApplication in 3.512 seconds (JVM running for 5.738) 
+2021-11-18 17:20:31 [RMI TCP Connection(150)-127.0.0.1] INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested. 
